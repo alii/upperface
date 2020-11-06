@@ -1,6 +1,6 @@
 {
     "name": "upperface",
-    "version": "1.0.15",
+    "version": "2.6.9",
     "main": "dist/up.js",
     "types": "dist/up.d.ts",
     "author": "Benjamin Akar",
