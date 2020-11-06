@@ -1,0 +1,26 @@
+{
+    "name": "upperface",
+    "version": "1.0.15",
+    "main": "dist/up.js",
+    "types": "dist/up.d.ts",
+    "author": "Benjamin Akar",
+    "license": "MIT",
+    "scripts": {
+      "build": "rimraf dist&&tsc",
+      "prepare": "yarn build"
+    },
+    "files": [
+      "dist",
+      "package.json"
+    ],
+    "devDependencies": {
+      "eslint": "^7.12.0",
+      "prettier": "^2.1.2",
+      "rimraf": "^3.0.2",
+      "typescript": "^4.0.5"
+    },
+    "repository": {
+      "url": "https://github.com/benja/upperface",
+      "type": "git"
+    }
+  }
